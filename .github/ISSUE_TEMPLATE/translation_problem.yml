@@ -1,0 +1,43 @@
+name: Ошибка перевода
+description: Сообщить об английской строке, неточном переводе или проблеме интерфейса
+title: "[Перевод] "
+body:
+  - type: input
+    id: game-build
+    attributes:
+      label: Steam build ID
+      description: Укажите build ID игры, если он известен.
+      placeholder: "24300218"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Где появился текст
+      description: Опишите экран, предмет или действие, после которого возникла проблема.
+    validations:
+      required: true
+  - type: textarea
+    id: current-text
+    attributes:
+      label: Текущий текст
+      description: Приведите английскую строку или проблемный русский перевод.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Скриншот
+      description: Перетащите сюда скриншот с видимой проблемой.
+    validations:
+      required: false
+  - type: dropdown
+    id: install-method
+    attributes:
+      label: Способ установки
+      options:
+        - Windows Setup
+        - ZIP / ручная установка
+        - Другое
+    validations:
+      required: true
