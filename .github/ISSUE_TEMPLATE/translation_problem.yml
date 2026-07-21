@@ -3,11 +3,11 @@ description: Сообщить об английской строке, неточ
 title: "[Перевод] "
 body:
   - type: input
-    id: game-build
+    id: game-version
     attributes:
-      label: Steam build ID
-      description: Укажите build ID игры, если он известен.
-      placeholder: "24300218"
+      label: Версия игры
+      description: Укажите номер версии, отображаемый в игре. Steam build ID можно добавить, если он известен.
+      placeholder: "89425"
     validations:
       required: true
   - type: textarea
