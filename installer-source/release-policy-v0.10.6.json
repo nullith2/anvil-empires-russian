@@ -1,0 +1,59 @@
+{
+  "schema": "anvil-russian-release-policy/1",
+  "release_version": "0.10.6",
+  "release_identity": {
+    "manifest_schema": "anvil-patch-manifest/5",
+    "manifest_sha256": "sha256:28fdeafb726028c7d42346bf0d715733922b846033096587a4155db4d51675ca",
+    "tool": {
+      "name": "anvil-l10n",
+      "version": "0.10.6"
+    },
+    "steam": {
+      "app_id": "2383950",
+      "build_id": "24300218",
+      "depot_id": "2383951",
+      "depot_manifest_id": "590909372322551692"
+    },
+    "native_executable": {
+      "size": 164687872,
+      "sha256": "sha256:e6654492cb08269f27fb97d7f880ebbae90e436d0366ceb9be982b04920a730d"
+    },
+    "content": {
+      "cooked_entries": 2542,
+      "native_entries": 378,
+      "locres_entries": 2920,
+      "pak_entries": 3,
+      "selection_sha256": "sha256:ea2bbb27bc86b76b65446e152364fce73272c532ad2d87feb85def67904bfd41",
+      "locmeta_sha256": "sha256:a652ed00877555eb84f083d37f90d55fa91bea169324dc70639dde0626f6e7a9",
+      "locres_sha256": "sha256:7593284912ddc12b37c962b720dde42c20aefd9ad3adf95ea8d8b2b1a3c7aae7"
+    },
+    "pak": {
+      "file": "Anvil-Russian-Full_P.pak",
+      "size": 442382,
+      "sha256": "sha256:06fbed087266094eb1cdc14e5c6e7511d2ad0addac992ca156eebf0699f43bba"
+    },
+    "repak": {
+      "version": "repak_cli 0.2.3",
+      "size": 4541952,
+      "sha256": "sha256:fcd538e5994b9bb833622d425ae346f4e0692f02d4b0025114a559f9b6286022"
+    }
+  },
+  "font_override": {
+    "original_target": {
+      "entry": "Anvil/Content/UI/Fonts/IMFellDWPica-Regular.ufont",
+      "sha256": "sha256:7c3fb5783ec81822a7863ed17e0bc3efbb57f7d70ae8755570a08ae70be04e07",
+      "size": 212872
+    },
+    "source": {
+      "entry": "Engine/Content/Slate/Fonts/Roboto-Regular.ttf",
+      "sha256": "sha256:16466ef65064e6f3885a6d2806b8949ac1ac38b524dd0cf8fc96565eb4cc28e8",
+      "size": 158604
+    },
+    "output": {
+      "entry": "Anvil/Content/UI/Fonts/IMFellDWPica-Regular.ufont",
+      "sha256": "sha256:7d70b320057c88085cd07f95fffe574b805154c17d4f750527b041c34ad6b0d1",
+      "size": 158612
+    },
+    "transform": "unreal-ufont-v1-size-prefix-and-zero-suffix"
+  }
+}
