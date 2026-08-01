@@ -7,7 +7,7 @@ body:
     attributes:
       label: Версия игры
       description: Укажите номер версии, отображаемый в игре. Steam build ID можно добавить, если он известен.
-      placeholder: "89425"
+      placeholder: "89454"
     validations:
       required: true
   - type: textarea
@@ -36,8 +36,8 @@ body:
     attributes:
       label: Способ установки
       options:
-        - Windows Setup
         - ZIP / ручная установка
+        - NFG Store
         - Другое
     validations:
       required: true
