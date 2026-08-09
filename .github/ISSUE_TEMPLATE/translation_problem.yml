@@ -7,7 +7,7 @@ body:
     attributes:
       label: Версия игры
       description: Укажите номер версии, отображаемый в игре. Steam build ID можно добавить, если он известен.
-      placeholder: "89454"
+      placeholder: "90114"
     validations:
       required: true
   - type: textarea
